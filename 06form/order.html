@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Music Albums</title> 
+        <meta charset="UTF-8">
+        <meta name="description" content="Music is life">
+        <meta name="author" content="Ashley Araujo">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, intitial-scale=1"> 
+
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Music Albums</h1>
+            <p>Music is life</p>
+        </header>
+        
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">History</a></li>
+                <li><a href="merchandise.html">Merchandise</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li class="working"><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Start of the page content -->
+        <main>
+            <h1>What would you like to order?</h1>
+            <form method="get" class="fun" action="thanks.html">
+            
+            <fieldset>
+            <legend>Costumer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Email*<input type="email" name="email" required placeholder="example@email.com"></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            </fieldset>  
+            
+            
+            <fieldset>
+            <legend>Justin Bieber Merchandise</legend>    
+                <label><input type="checkbox" name="merchandise" value="chosen">T-shirts</label> 
+                <label><input type="checkbox" name="merchandise" value="chosen">Posters</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Perfume</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Keychains</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Blankets</label>
+            </fieldset> 
+                
+            <fieldset>
+            <legend>Ariana Grande Merchandise</legend>    
+                <label><input type="checkbox" name="merchandise" value="chosen">T-shirts</label> 
+                <label><input type="checkbox" name="merchandise" value="chosen">Posters</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Perfume</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Make up Brand</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Blankets</label>
+            </fieldset>
+                
+            <fieldset>
+            <legend>Enhypen Merchandise</legend>    
+                <label><input type="checkbox" name="merchandise" value="chosen">T-shirts</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Posters</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Light Stick Covers</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Photocard Covers</label>
+                <label><input type="checkbox" name="merchandise" value="chosen">Blankets</label>
+            </fieldset>
+                
+             <fieldset>
+            <legend>Albums</legend>    
+                <label><input type="checkbox" name="albums" value="chosen">Dangerous Women - Ariana Grande </label> 
+                <label><input type="checkbox" name="albums" value="chosen">Justice - Justin Bieber</label>
+                <label><input type="checkbox" name="albums" value="chosen">Red Moon in Venus - Kali Uchis</label> 
+                <label><input type="checkbox" name="albums" value="chosen">This Is Why - Paramore</label>
+                <label><input type="checkbox" name="albums" value="chosen">Bario Fino - Daddy Yankee</label> 
+                <label><input type="checkbox" name="albums" value="chosen">Border Carnival- Enhypen</label>
+                <label><input type="checkbox" name="albums" value="chosen">El Grito - jorge Lopez Ruiz</label> 
+                <label><input type="checkbox" name="albums" value="chosen">Demon Days - Gorillaz</label>
+                 
+            </fieldset>  
+            
+                
+                
+            <fieldset>
+            <legend>Shipping Method</legend>
+                <label><input type="radio" name="method" value="Ups">Ups (1-5 buisiness days)</label>  
+                <label><input type="radio" name="method" value="Usps">Usps (1-3 buisness days</label>
+                <label><input type="radio" name="method" value="Fedex">Fedex (1-5 buisness days)</label>
+                <label><input type="radio" name="method" value="DHL"> DHL (3-8 buisness days)</label>
+                <label>Preferred Delivery time    
+                <select name="time">
+                <option value="none">Please select</option>
+                <option value="morning">Between 7:00am and 11:00</option>
+                 <option value="noon">Between 11:00am and 2:00pm</option>
+                <option value="afternoon"> Between 2:00pm and 5:00pm</option>      
+                <option value="evening"> Between 5:00pm and 8:00pm</option>
+
+                </select>
+                </label>
+             </fieldset>
+                
+            <fieldset>    
+            <legend> Any comments or concerns</legend>  
+            <label>Comment 
+                <textarea name="comments"></textarea>
+                </label> 
+           </fieldset> 
+
+                    
+            <input type="submit" value="Place Order">
+            </form>
+            
+        
+        
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2024  &bull; Ashley Araujo &bull; <a href="mailto:ashley.a.999@gmail.com">Email us</a></p>
+        </footer>
+        
+    </body>
+</html>
